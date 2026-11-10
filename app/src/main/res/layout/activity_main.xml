@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#080808"
+    android:gravity="center_horizontal" android:padding="28dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="KMADB" android:textColor="#00EE66" android:textSize="40sp"
+        android:textStyle="bold" android:fontFamily="monospace"
+        android:layout_marginTop="48dp" android:letterSpacing="0.2"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Free Fire Mod · Android 11-16"
+        android:textColor="#444444" android:textSize="12sp" android:layout_marginBottom="40dp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center" android:layout_marginBottom="6dp">
+        <TextView android:id="@+id/tv_shizuku" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:gravity="center" android:text="Shizuku ✗" android:textColor="#FF4444" android:textSize="13sp"/>
+        <TextView android:id="@+id/tv_overlay" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:gravity="center" android:text="Overlay ✗" android:textColor="#FF4444" android:textSize="13sp"/>
+    </LinearLayout>
+    <TextView android:id="@+id/tv_pkg" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:gravity="center"
+        android:text="Mendeteksi Free Fire..." android:textColor="#555555"
+        android:textSize="11sp" android:layout_marginBottom="36dp"/>
+    <Button android:id="@+id/btn_shizuku" android:layout_width="match_parent"
+        android:layout_height="52dp" android:backgroundTint="#0D2A0D"
+        android:text="1  Grant Shizuku" android:textColor="#00EE66"
+        android:layout_marginBottom="12dp"/>
+    <Button android:id="@+id/btn_overlay" android:layout_width="match_parent"
+        android:layout_height="52dp" android:backgroundTint="#0D1A2A"
+        android:text="2  Grant Overlay" android:textColor="#00AAFF"
+        android:layout_marginBottom="12dp"/>
+    <Button android:id="@+id/btn_launch" android:layout_width="match_parent"
+        android:layout_height="56dp" android:backgroundTint="#00883A"
+        android:text="LAUNCH" android:textColor="#FFFFFF"
+        android:textSize="16sp" android:textStyle="bold" android:enabled="false"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Butuh Shizuku aktif via Wireless Debugging"
+        android:textColor="#333333" android:textSize="11sp" android:layout_marginTop="20dp"/>
+</LinearLayout>
